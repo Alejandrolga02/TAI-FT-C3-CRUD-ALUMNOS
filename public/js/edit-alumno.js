@@ -26,7 +26,7 @@ const getInputs = () => {
 	};
 };
 
-async function updateProduct(event) {
+async function updateAlumno(event) {
 	try {
 		event.preventDefault();
 
@@ -65,7 +65,7 @@ async function updateProduct(event) {
 }
 
 // Creacion de escuchadores de eventos
-btnActualizar.addEventListener("click", updateProduct)
+btnActualizar.addEventListener("click", updateAlumno)
 form.addEventListener("reset", (event) => {
 	document.querySelector("#imgPreview").src = ulrImagenDefault;
 })

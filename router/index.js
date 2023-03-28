@@ -5,7 +5,7 @@ const escape = require("mysql2").escape;
 let counter = 0;
 let query = "SELECT * FROM alumno";
 
-// Administración Productos
+// Administración Alumnos
 router.get("/", async (req, res) => {
 	try {
 		if (counter === 0) {

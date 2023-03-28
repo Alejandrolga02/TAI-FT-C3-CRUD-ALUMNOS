@@ -27,7 +27,7 @@ const getInputs = () => {
 	};
 };
 
-async function insertProduct(event) {
+async function insertAlumno(event) {
 	try {
 		event.preventDefault();
 
@@ -62,7 +62,7 @@ async function insertProduct(event) {
 	}
 }
 
-async function lookUpProduct(event) {
+async function lookUpAlumno(event) {
 	try {
 		event.preventDefault();
 
@@ -109,8 +109,8 @@ async function lookUpProduct(event) {
 	}
 }
 
-btnAgregar.addEventListener("click", insertProduct);
-btnConsultar.addEventListener("click", lookUpProduct);
+btnAgregar.addEventListener("click", insertAlumno);
+btnConsultar.addEventListener("click", lookUpAlumno);
 form.addEventListener("reset", (event) => {
 	event.preventDefault();
 
